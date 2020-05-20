@@ -1,5 +1,4 @@
 const atualizarCor = () => {
-
   let counts = document.querySelectorAll('input[type="text"]');
   let cores = Array.from(document.querySelectorAll('input[type="range"]'));
 
@@ -10,7 +9,6 @@ const atualizarCor = () => {
 
   let corPrincipal = document.getElementById('cor');
   corPrincipal.style.backgroundColor = `rgb(${rgb.join()})`;
-
 }
 
 window.addEventListener("load", () => atualizarCor());
