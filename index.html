@@ -12,29 +12,28 @@
 
 <body>
   <div class="container">
-    <div class="textos">
-      <h4>(R) Vermelho: </h4>
-      <h4>(G) Verde: </h4>
-      <h4>(B) Azul: </h4>
+    <div>
+      <h4>(R - RED) Vermelho: </h4>
+      <input type="range" min="0" max="255" value="126">
+      <input cor-red type="text" value="126" disabled>
     </div>
 
-    <div class="range">
-      <input type="range" id="red" min="0" max="255" value="126"> 
-      <input type="range" id="green" min="0" max="255" value="126">
-      <input type="range" id="blue" min="0" max="255" value="126">
+    <div>
+      <h4>(G - GREEN) Verde: </h4>
+      <input type="range" min="0" max="255" value="126">
+      <input cor-green type="text" value="126" disabled>
     </div>
 
-    <div class="numeros">
-      <input cor-red   type="text" value="126" id="red-count"   disabled>
-      <input cor-green type="text" value="126" id="green-count" disabled>
-      <input cor-blue  type="text" value="126" id="blue-count"  disabled>
+    <div>
+      <h4>(B - BLUE) Azul: </h4>
+      <input type="range" min="0" max="255" value="126">
+      <input cor-blue type="text" value="126" disabled>
     </div>
-   
+
   </div>
 
   <div class="container">
     <div id="cor">
-      
     </div>
   </div>
 
